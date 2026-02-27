@@ -1,0 +1,22 @@
+<center><h2>EXERCISE 2</h2></center>
+<h4>Queries:</h4>
+
+### 1.Find the movie with a row id of 6.
+~~~sql
+SELECT * FROM MOVIES WHERE id = 6;
+~~~
+
+### 2.Find the movies released in the years between 2000 and 2010.
+~~~sql
+SELECT * FROM MOVIES WHERE year BETWEEN 2000 AND 2010;
+~~~
+
+### 3.Find the movies not released in the years between 2000 and 2010.
+~~~sql
+SELECT * FROM MOVIES WHERE year NOT BETWEEN 2000 AND 2010;
+~~~
+
+### 4.Find the first 5 Pixar movies and their release year.
+~~~sql
+SELECT title, year FROM MOVIES LIMIT 5;
+~~~
